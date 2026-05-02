@@ -1,6 +1,6 @@
-# Travel Blog
+# Travel Blog — Node.js & Express Web App
 
-A simple Travel Blog web application built with **Node.js**, **Express.js**, and **EJS**. This project demonstrates backend routing, CRUD functionality, and dynamic content rendering with EJS templates.
+A simple travel blog web application built with **Node.js**, **Express.js**, and **EJS**. This project demonstrates backend routing, CRUD functionality, and dynamic content rendering using EJS templates.
 
 ---
 
@@ -12,17 +12,21 @@ A simple Travel Blog web application built with **Node.js**, **Express.js**, and
 - **Dynamic Rendering with EJS**  
   Pages are generated dynamically using EJS templates.
 
-- **Self-contained Project**  
-  No database required — all data is stored in memory. Clone and run immediately.
+- **In-Memory Data Storage**  
+  No database is required. The project stores data in memory while the server is running.
+
+- **Simple and Lightweight Structure**  
+  Designed as a beginner-friendly backend web application using Express.js.
 
 ---
 
 ## Tech Stack
 
-- **Node.js**  
-- **Express.js**  
-- **EJS Templating**  
-- **CSS / JavaScript**  
+- **Node.js**
+- **Express.js**
+- **EJS**
+- **CSS**
+- **JavaScript**
 
 ---
 
@@ -32,12 +36,14 @@ A simple Travel Blog web application built with **Node.js**, **Express.js**, and
 
 ```bash
 git clone https://github.com/Kokosaiid/Travel-Blog.git
-cd travel-blog
+cd Travel-Blog
 ```
 
-2. **Unzip node_modules**
+2. **Install dependencies**
 
-The project includes a pre-installed node_modules folder. Make sure to unzip it so the website can run properly.
+```bash
+npm install
+```
 
 3. **Run the project**
 
@@ -61,6 +67,7 @@ nodemon index.js
 Visit http://localhost:3000 to see the app in action.
 
 ---
+## Screenshots
 
 <img width="953" height="908" alt="Screenshot 2025-09-11 220001" src="https://github.com/user-attachments/assets/6c00b81d-77df-405a-88a5-3923a2cc65c3" />
 
